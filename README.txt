@@ -1,4 +1,4 @@
-__Frame Price Estimator__
+**Frame Price Estimator**
 
 Welcome to the Frame Price Estimator project! This web-based tool allows you to calculate the cost of framing for your photos based on their dimensions and other preferences.
 
