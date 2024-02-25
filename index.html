@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame Price Estimator</title>
+</head>
+<body>
+<div>
+    <h1>Frame Price Estimator</h1>
+
+
+    <form action="framing.php" method="post">
+        <p>Please enter your photo sizes to get a framing cost estimate.</p>
+
+
+        <p>Photo Width: <input type ="text" name="width"/>
+            <select name="unit" id="unit">
+                <option value="mm">mm</option>
+                <option value="cm">cm</option>
+                <option value="inch">inch</option>
+            </select>
+        </p>
+        <p>Photo Height: <input type ="text" name="height"/></p>
+
+        <p>Postage: <input type="radio" id="economy" name="postage" value="economy" checked ="checked">
+            <label for="economy">Economy</label>
+            <input type="radio" id="rapid" name="postage" value="rapid">
+            <label for="rapid">Rapid</label>
+            <input type="radio" id="nextday" name="postage" value="nextday">
+            <label for="nextday">Next Day</label>
+        </p>
+
+        <p><input type="checkbox" id="vat" name="vat" checked = "checked">
+            <label for="vat">Include VAT in price</label>
+        </p>
+
+        <p>Enter you email to receive a copy of the quotation: <input type ="text" name="email"/></p>
+
+        <p><input type="checkbox" id="receiveEmails" name="receiveEmails" checked="checked">
+            <label for="receiveEmails">Receive mail and future information about my framing calculation</label>
+        </p>
+
+        <p><input type="submit" /></p>
+    </form>
+</div>
+</body>
+
+</html>
